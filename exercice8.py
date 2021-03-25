@@ -15,4 +15,6 @@ def hauteurParcourue(nb_de_marches,hauteur_marche_cm):
 
     print(f"Pour {nb_de_marches} marches de {hauteur_marche_cm} cm, il parcourt {nb_de_metres} m par semaine.")
 
-hauteurParcourue(1,1)
+nb = input("nb de marches ? ")
+h = input("hauteur d'une marche ? ")
+hauteurParcourue(nb,h)
